@@ -1,0 +1,966 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Hobbs London</title>
+<style type="text/css">
+
+@media only screen and (max-width: 480px)  {
+	*[class=logo] {
+		width:210px !important;
+	}
+	
+	.splitter {
+		display: inline-block !important;
+		text-align:center !important;
+		color:#000 !important;
+		font-size: 12px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		width:5px !important;
+		font-size:13px !important;
+		font-family: arial, sans-serif !important;
+	}
+	
+	.iPhonefooter1 {
+		display: inline-block !important;
+		text-align:center !important;
+		color:#000 !important;
+		padding-bottom:0;
+		font-size: 12px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		width:100px !important;
+		font-size:13px !important;
+		font-family: arial, sans-serif !important;
+		text-decoration:none !important;
+	}
+	
+	.tablewidth {
+		width: 320px !important;
+	}
+	
+	.full {
+		display:block;
+		width:100%;
+	}
+	
+	.hide {
+		display:none !important;
+	}
+}
+
+/* Prettifying code */
+
+body { background-color: #FFF; }
+
+a {
+	color:inherit;
+}
+
+body {
+	margin: 10px;
+	padding: 0px;
+	background: #FFF;
+	font-size: 13px;
+}
+
+table {
+	border-collapse:collapse;
+	mso-table-lspace:0pt;
+	mso-table-rspace:0pt;
+	border-spacing: 0;
+}
+
+td {
+	font-family: arial, sans-serif;
+	color: #333333;
+}
+
+tr {
+	border-collapse:collapse;
+}
+
+.iPhonefooter {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.iPhonefooter1 {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.iPhonefooter2 {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.iPhonefooter3 {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.footerSplitter {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.imageappear {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.imageappear2 {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.hide {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	width:0;
+	mso-hide: all;
+}
+
+.iPhonebutton {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.iPhone100 {
+	width: 100px !important;
+}
+
+@media only screen and (max-width: 480px) {
+	body, table, td, p, a, li, blockquote {
+		-webkit-text-size-adjust:none !important;
+	}
+	
+	*[class=iPhone] {
+		display:none !important;
+	}
+	
+	*[class=iPhone100] {
+		display:none !important;
+	}
+
+	table[class=tableWidth] {
+		width: 320px !important;
+	}
+	
+	*[class=responsive-image] img {
+		height: auto !important;
+		width: 320px !important;
+	}
+	
+	*[class=responsive-image] {
+		height: auto !important;
+		width: 320px !important;
+	}
+	
+	*[class=responsive-image2] img {
+		height: auto !important;
+		width: 160px !important;
+	}
+	
+	*[class=responsive-image2] {
+		height: auto !important;
+		width: 160px !important;
+	}
+
+	*[class=thumbnail-image] {
+		width:150px !important;
+	}
+	
+	*[class=numbersemail] {
+		width:150px !important;
+	}
+
+	*[class=singleproduct] {
+		width:160px !important;
+	}
+	
+	*[class=smallproduct] {
+		width:158px !important;
+	}
+	
+	*[class=iphone] {
+		display:none !important;
+	}
+	
+	img[class=iphone-header] {
+		-ms-interpolation-mode: bicubic;
+		display: block !important;
+		visibility: visible !important;
+		width: 125px !important;
+		height: 44px !important;
+	}
+	
+	*[class=show] {
+		display: block !important;
+	}
+
+	*[class=footer-line] {
+		width: 65px !important;
+		height: 11px !important;
+		margin-left:8px;
+	}
+	
+	*[class=footer-line1] {
+		width: 65px !important;
+		height: 11px !important;
+		margin-right:8px;
+	}
+	
+	* [class=iPhonefooter] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		padding-bottom:10px;
+		font-size: 13px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:104px;
+	}
+	
+	* [class=height] {
+		height:18px;
+	}
+	
+	*[class=footerSplitter] {
+		width: 3px !important;
+		display: inline-block !important;
+		text-align: center;
+		font-size: 15px !important;
+		max-height: none !important;
+		line-height: 1.0 !important;
+		margin-top: -15px;
+		color: #000000;
+	}
+	
+	*[class=longimage] {
+		width:200px !important;
+		text-align:center !important;
+	}
+	
+	*[class=image] {
+		width:320px !important;
+		padding:7px !important;
+	}
+	
+	*[class=image2] {
+		width:300px !important;
+	}
+	
+	*[class=tableborder] {
+		border:none !important;
+	}
+	
+	* [class=iPhonefooter1] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		padding-bottom:10px;
+		font-size: 12px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:114px;
+	}
+	
+	* [class=iPhonefooter2] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		padding-bottom:10px;
+		font-size: 12px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:97px;
+	}
+	
+	*[class=iPhonefooter3] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		padding-bottom:10px;
+		font-size: 12px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:78px;
+	}
+	
+	*[class=slicewords] {
+		width:320px !important
+	}
+	
+	*[class=slicedword320] {
+		width:320px !important
+	}
+	
+	*[class=slicedword160] {
+		width:150px !important
+	}
+	
+	*[class=imageappear] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		padding-bottom:5px;
+		font-size: 13px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:320px;
+	}
+	
+	.footerSplitter1 {
+		display: none;
+		font-size: 0;
+		max-height: 0;
+		line-height: 0;
+	}
+	
+	*[class=hide] {
+		display: block !important;
+		text-align:center;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:320px !important;
+	}
+	
+	*[class=imageappear2] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		padding-bottom:5px;
+		font-size: 38px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:320px;
+	}
+	
+	* [class=iPhonebutton] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		font-size: 15px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:318px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		width:320px !important;
+	}
+
+	* [class=iPhonebutton2] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		font-size: 15px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		width:130px !important;
+	}
+	
+	*[class=iphone-footer-img] {
+		width:auto !important;
+	}
+	
+	*[class=shopby] {
+		width:230px !important;
+	}
+	
+	*[class=featurebox1] {
+		width:100px !important;
+		padding:7px !important;
+	}
+	
+	*[class=featurebox2] {
+		width:100px !important;
+		padding:7px !important;
+	}
+	
+	*[class=social] {
+		width:auto !important;
+	}
+	
+	*[class=fontsize] {
+		font-size:20px !important;
+	}
+	
+	*[class=paddingiphone] {
+		padding-top:10px !important;
+		padding-bottom:10px !important;
+	}
+	
+	*[class=iphonepadding] {
+		padding:10px !important;
+		font-size: 15px !important;
+	}
+	
+	*[class=width130] {
+		width:130px;
+	}
+
+	*[class=width130] {
+		width:150px !important;
+	}
+	
+	*[class=shopsale] {
+		width:350px !important;
+	}
+	
+	*[class=social] {
+		padding: 7px 15px 7px 0;
+	}
+	
+	*[class=responsive-image7] {
+		height: auto !important;
+		width: 50px !important;
+	}
+	
+	*[class=paddingsocial] {
+		padding: 7px 15px 7px 0 !important;
+	}
+	
+	*[class=paddingsocial2] {
+		padding: 7px 13px 7px 0 !important;
+	}
+	
+	*[class=logo] {
+		width:210px !important;
+	}
+	*[class=responsive-image5] {
+		height: auto !important;
+		width: 320px !important;
+		padding-top:15px;
+	}
+	
+	*[class=responsive-image4] {
+		height: auto !important;
+		width: 64px !important;
+	}
+	
+	*[class=expand] {
+		width:190px !important;
+		padding-top:5px !important;
+		padding-bottom:5px !important;
+		padding-right:5px !important;
+		padding-left: 5px !important;
+	}
+	
+	*[class=iphonepady] {
+		padding-top:5px !important;
+		padding-bottom:10px !important;
+	}
+	
+	* [class=newincta] {
+		width:255px !important;
+	}
+	
+	* [class=wearit] {
+		width: 320px !important;
+	}
+
+	* [class=dressbutton] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		font-size: 15px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	
+	* [class=colorchange] {
+		background-color: #fff;
+	}
+	
+	* [class=promo] {
+		padding: 0 30px 15px 30px !important;
+	}
+	
+	* [class=tscs] {
+		padding: 0 0 10px 0 !important;
+	}
+}
+.footerSplitter1 {	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+}
+</style>
+</head>
+<body>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="tableWidth">
+  <tr>
+    <td><table  border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth">
+        <tr>
+          <td colspan="10" style="padding: 0px 0px 0px 0px;"><div style="font-size: 12px; text-align:center">%%FRIEND_MESSAGE%%</div>
+            <div style="font-size: 10px; text-align:center">Introducing the new-season Faithful collection | %%IGNORE%% <font style="font-size: 10px; text-align: center" face="Arial, Helvetica, sans-serif" color="#3a2b20" size="1"><a href="http://ebm.e.hobbs.co.uk/c/tag/%%t%%/doc.html?t_params=%%t_params%%" style="color: #3a2b20; text-decoration: underline;" >View email online</a> %%IGNORE%%</font> </div></td>
+        </tr>
+      </table></td>
+  </tr>
+ <tr>
+    	<td>
+	    	<table class="tableWidth"  bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" align="center" width="700">
+		        <tr>
+		          	<td colspan="7" align="center" bgcolor="#FFFFFF" style="padding: 5px 0;">
+			          	<a style="text-decoration:none;" href="http://www.hobbs.com/"><img src="http://f.chtah.com/i/3/2088480426/150527_hobbs-logo.jpg" alt="Hobbs London" width="250" border="0" style="display: inline-block;" class="logo" /></a><a href="http://www.hobbs.co.uk/home"></a>
+		          	</td>
+		        </tr>
+	      	</table>
+     	</td>
+  </tr>
+    <tr>
+    <td><table class="tableWidth" width="700" border="0" align="center" cellpadding="0" cellspacing="0"  bgcolor="#FFFFFF"  style="border-top: 1px solid #d7d5d3; border-bottom: 1px solid #d7d5d3;">
+      <tr bgcolor="#FFFFFF">
+        <td width="104" align="center" bgcolor="#FFFFFF" style="padding: 5px 0 5px 0;"><a href="http://www.hobbs.com/en/New-Arrivals/3i70/" style="text-decoration:none;"> <span style="padding: 10px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: center; color:#000000; text-transform:uppercase;"><strong>NEW IN</strong></span></a></td>
+        <td width="110" align="center" bgcolor="#FFFFFF" style="padding: 0;"><a href="https://www.hobbs.com/en/Clothing/2698p/" style="text-decoration:none;"> <span style="padding: 10px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: center; color:#000000; text-transform:uppercase;"><strong>CLOTHING</strong></span></a></td>
+        <td width="88" align="center" bgcolor="#FFFFFF" class="iphone" style="padding: 0;"><a href="http://www.hobbs.com/en/Shoes/3hxc/" style="text-decoration:none"> <span style="padding: 10px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: center; color:#000000; text-transform:uppercase;"><strong>SHOES</strong></span></a></td>
+        <td width="137" align="center" bgcolor="#FFFFFF" class="iphone" style="padding: 0;"><a href="http://www.hobbs.com/en/ACCESSORIES/3gwf/" style="text-decoration:none"> <span style="padding: 10px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: center; color:#000000; text-transform:uppercase;"><strong>ACCESSORIES</strong></span></a></td>
+        <td width="98" align="center" bgcolor="#FFFFFF" style="padding: 0;"><a href="https://www.hobbs.com/en/OUTLET/3ici/" style="text-decoration:none"><font style="font-size: 12px; text-align: center; color:#000000; -ms-text-size-adjust:none; -moz-text-size-adjust:none; -webkit-text-size-adjust:none;" face="Arial, Helvetica, sans-serif" size="1"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OUTLET&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></font></a></td>
+      </tr>
+    </table></td>
+  </tr>
+ 
+ <tr>
+    <td>
+    <table  border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#FFFFFF">
+
+        <tr>
+        
+        <td align="center" style="padding: 0px 0px 0 0px;"><img style="display: block" height="15" alt="" width="10" border="0" src="http://f.chtah.com/i/3/2088480426/space.gif"/></td>
+  </tr>
+       
+        </table>
+    </td>
+  </tr>
+
+ <tr><td>
+ <table class="tablewidth" dir="rtl"  width="700" cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; max-width: 700px;">
+  <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+  <tr><td bgcolor="#ffffff" colspan="3" class="iphone">&nbsp;</td></tr>
+  <tr>
+    <td width="340" dir="ltr" valign="top"class="full" style="text-align: center;">
+
+      <a href="https://www.hobbs.com/en/Hobbs-Stores/3h63/" style="text-decoration:none;"><img src="http://f.e.hobbs.co.uk/i/3/2088480426/170412_faithful_USA_03.gif" alt="A SPECIAL GIFT FROM US TO YOU Spend over $250 in our Westchester, NY and Greenwich Avenue, CT stores and receive a complimentary London scarf. FIND YOUR NEAREST STORE" width="350" border="0" class="responsive-image" /></a>
+                      
+    </td>
+    <td width="340" class="full" dir="ltr">
+      
+     <table  border="0" cellpadding="0" cellspacing="0" align="center" width="340" class="tableWidth" bgcolor="#ffffff">
+
+        <tr>
+          <td width="340"  valign="top"class="full" style="text-align: center;">
+            
+            <a href="https://www.hobbs.com/en/Hobbs-Stores/3h63/" style="text-decoration:none;"><img src="http://f.chtah.com/i/3/2088480426/170412_faithful_USA_01.jpg" alt="April | Meet Nicola, our style-savvy Head of Design. As you'd imagine, she's always impeccably dressed." width="350" border="0" class="responsive-image" /></a>
+            
+            </td>
+        </tr>
+            </table>
+      
+      
+      
+    </td>
+  </tr>
+</table>
+ </td></tr>
+<tr><td>
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#ffffff" style="text-align:center;">
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        </table>
+</td></tr>
+
+<tr><td>
+<table  border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#ffffff">
+        <tr>
+          <td width="500" align="center" style="font-size: 0; line-height: 0; padding: 0;"><a href="https://www.hobbs.com/the-faithful"><img src="http://f.chtah.com/i/3/2088480426/170321_faithful_01.jpg" alt="THE FAITHFUL | BUILD YOUR PERFECT WARDROBE" width="700" border="0" class="responsive-image"/></a></td>
+        </tr>
+        </table>
+</td></tr>
+<tr><td>
+<table border="0" cellpadding="1" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#ffffff" style="text-align:center;">
+ <tr><td width="700">&nbsp;</td></tr>
+ <tr><td width="700">&nbsp;</td></tr>
+        <tr>
+          <td align="center" style="padding: 0;"><table border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#ffffff">
+              <tr>
+                <td width="30" align="center" style="font-size: 0; padding: 0;" class="iphone" >&nbsp;</td>
+                <td class="padding" align="center" valign="middle" style="border: none; font-family:Gotham, Helvetica, Arial, sans-serif; font-weight:300; line-height:18px;"><font style="font-size: 13px; text-align: center; color:#000000; -webkit-text-size-adjust:none;" face="Arial, Helvetica, sans-serif" size="1" color="#000000"></font>Carefully curated with a woman in mind, these impeccably made pieces will stand the test of time and act as the building blocks for any outfit. These are the clothes and shoes that you can trust time and time again. They will always be there for you and never let you down.</td>
+                <td width="30" align="right" style="font-size: 0; line-height: 0; padding: 0 0px 0 0px;" class="iphone" >&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        <tr>
+          <td align="center"><a href="https://www.hobbs.com/The-Faithful/7fon/" style="text-decoration:underline; color: #000000; font-weight:bold"><font style="font-size: 13px; color:#000000; -webkit-text-size-adjust:none;" face="Gotham, Helvetica, Arial, sans-serif" size="1" color="#000000"><strong>SHOP FAITHFUL</strong></font></a></td>
+        </tr>
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+      </table>
+</td></tr>
+  <tr><td>
+  <table class="tablewidth" width="700" cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; max-width: 700px;">
+  <tr>
+    <td width="340"  valign="top"class="full" style="text-align: center;">
+
+      <a href="https://www.hobbs.com/en/Brown-Saskia-Trench-Trench-coats-Coats-and-Jackets/2grut/?productID=0215-3991-9057L00&productvarid=0215-3991-9057L00-CLAY-12" style="text-decoration:none;"><img src="http://f.chtah.com/i/3/2088480426/170228_faithful_02.jpg" alt="The Saskia Trench Coat" width="340" border="0" class="responsive-image" /></a><a href="https://www.hobbs.co.uk/product/display?productID=0216-5082-9044L00&productvarid=0216-5082-9044L00-BLACK-IVORY-12&refpage=dresses" style="text-decoration:none;"></a>
+                      
+    </td>
+    <td width="340" class="full">
+      
+     <table  border="0" cellpadding="0" cellspacing="0" align="center" width="340" class="tableWidth" bgcolor="#ffffff">
+
+        <tr>
+        <td width="340"  valign="top"class="full" style="text-align: center;">
+
+      <a href="https://www.hobbs.com/en/Brown-Saskia-Trench-Trench-coats-Coats-and-Jackets/2grut/?productID=0215-3991-9057L00&productvarid=0215-3991-9057L00-CLAY-12" style="text-decoration:none;"><img src="http://f.chtah.com/i/3/2088480426/170228_faithful_02.gif" alt="THE FAITHFUL TRENCH" width="340" border="0" class="responsive-image" /></a>
+                      
+    </td>
+        </tr>
+        <tr>
+          <td bgcolor="#ffffff" colspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+          <td bgcolor="#ffffff" colspan="3"><table border="0" cellpadding="0" cellspacing="0" align="center" width="340" class="tableWidth" bgcolor="#ffffff" dir="ltr">
+            <tr>
+              <td width="30" align="center" style="font-size: 0; padding: 0;">&nbsp;</td>
+              <td class="padding" align="center" valign="middle" style="border: none; padding:5px 18px 7px 18px; font-family:Gotham, Helvetica, Arial, sans-serif; font-weight:300; line-height:18px;"><p>Designed to stand the test of time, Saskia bears all the hallmarks of an icon. With its horn-effect buttons, epaulettes and fit-and-flare silhouette, rain or shine, you always decide the forecast.</p>
+                <p>Saskia Trench</p></td>
+              <td width="30" align="right" style="font-size: 0; line-height: 0; padding: 0 0px 0 0px;">&nbsp;</td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+       <tr>
+          <td align="center"><a href="https://www.hobbs.com/en/Brown-Saskia-Trench-Trench-coats-Coats-and-Jackets/2grut/?productID=0215-3991-9057L00&productvarid=0215-3991-9057L00-CLAY-12" style="text-decoration:underline; color: #000000; font-weight:bold"><font style="font-size: 13px; color:#000000; -webkit-text-size-adjust:none;" face="Gotham, Helvetica, Arial, sans-serif" size="1" color="#000000"><strong>SHOP NOW</strong></font></a></td>
+        </tr> 
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        </table>
+      
+    </td>
+  </tr>
+</table>
+        </td></tr> 
+     <tr><td>
+ <table class="tablewidth" dir="rtl"  width="700" cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; max-width: 700px;">
+  <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+  <tr><td bgcolor="#ffffff" colspan="3" class="iphone">&nbsp;</td></tr>
+  <tr>
+    <td width="340" dir="ltr" valign="top"class="full" style="text-align: center;">
+
+      <a href="https://www.hobbs.com/en/Blue-Wimbledon-Tote-Tote-Bags-Bags/5bhe8/?productID=0117-1290-020000" style="text-decoration:none;"><img src="http://f.chtah.com/i/3/2088480426/170228_faithful_03.jpg" alt="The Wimbledon Tote" width="340" border="0" class="responsive-image" /></a>
+                      
+    </td>
+    <td width="340" class="full" dir="ltr">
+      
+     <table  border="0" cellpadding="0" cellspacing="0" align="center" width="340" class="tableWidth" bgcolor="#ffffff">
+
+        <tr>
+        <td width="340"  valign="top"class="full" style="text-align: center;">
+
+      <a href="https://www.hobbs.com/en/Blue-Wimbledon-Tote-Tote-Bags-Bags/5bhe8/?productID=0117-1290-020000" style="text-decoration:none;"><img src="http://f.chtah.com/i/3/2088480426/170228_faithful_04.gif" alt="THE FAITHFUL TOTE" width="320" border="0" class="responsive-image" /></a>
+                      
+    </td>
+        </tr>
+            <tr>
+              <td bgcolor="#ffffff" colspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+              <td bgcolor="#ffffff" colspan="3"><table border="0" cellpadding="0" cellspacing="0" align="center" width="340" class="tableWidth" bgcolor="#ffffff" dir="ltr">
+                <tr>
+                  <td width="30" align="center" style="font-size: 0; padding: 0;">&nbsp;</td>
+                  <td class="padding" align="center" valign="middle" style="border: none; padding:5px 25px 7px 25px;font-family:Gotham, Helvetica, Arial, sans-serif; font-weight:300; line-height:18px;"><p>Crafted from finest suede, the luxurious Wimbledon tote is shaped for modernist style. Featuring three spacious interior compartments, it will always be by your side.</p>
+                    <p>Wimbledon Tote</p></td>
+                  <td width="30" align="right" style="font-size: 0; line-height: 0; padding: 0 0px 0 0px;">&nbsp;</td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+       <tr>
+          <td align="center"><a href="https://www.hobbs.com/en/Blue-Wimbledon-Tote-Tote-Bags-Bags/5bhe8/?productID=0117-1290-020000" style="text-decoration:underline; color: #000000; font-weight:bold"><font style="font-size: 13px; color:#000000; -webkit-text-size-adjust:none;" face="Gotham, Helvetica, Arial, sans-serif" size="1" color="#000000"><strong>SHOP NOW</strong></font></a></td>
+        </tr> 
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        </table>
+      
+      
+      
+    </td>
+  </tr>
+</table>
+ </td></tr>
+  <tr><td>
+<table class="tablewidth" width="700" cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; max-width: 700px;">
+<tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+<tr><td bgcolor="#ffffff" colspan="3" class="iphone">&nbsp;</td></tr>
+  <tr>
+    <td width="340"  valign="top"class="full" style="text-align: center;">
+
+      <a href="https://www.hobbs.com/en/Yellow-Monica-Loafer-Flats-and-Pumps-Shoes-and-Boots/75wwa/?productID=0117-BR07-004H025&productvarid=0117-BR07-004H025-SAND-37" style="text-decoration:none;"><img src="http://f.chtah.com/i/3/2088480426/170228_faithful_04.jpg" alt="The Monica Loafer" width="340" border="0" class="responsive-image" /></a>
+                      
+    </td>
+    <td width="340" class="full">
+      
+     <table  border="0" cellpadding="0" cellspacing="0" align="center" width="340" class="tableWidth" bgcolor="#ffffff">
+
+        <tr>
+        <td width="340"  valign="top"class="full" style="text-align: center;">
+
+      <a href="https://www.hobbs.com/en/Yellow-Monica-Loafer-Flats-and-Pumps-Shoes-and-Boots/75wwa/?productID=0117-BR07-004H025&productvarid=0117-BR07-004H025-SAND-37" style="text-decoration:none;"><img src="http://f.chtah.com/i/3/2088480426/170228_faithful_05.gif" alt="THE FAITHFUL LOAFER" width="320" border="0" class="responsive-image" /></a>
+                      
+    </td>
+        </tr>
+            <tr>
+              <td bgcolor="#ffffff" colspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+              <td bgcolor="#ffffff" colspan="3"><table border="0" cellpadding="0" cellspacing="0" align="center" width="340" class="tableWidth" bgcolor="#ffffff" dir="ltr">
+                <tr>
+                  <td width="30" align="center" style="font-size: 0; padding: 0;">&nbsp;</td>
+                  <td class="padding" align="center" valign="middle" style="border: none; padding:5px 21px 7px 21px;"><p><font style="font-size: 13px; text-align: center; color:#000000; -webkit-text-size-adjust:none;font-family:Gotham, Helvetica, Arial, sans-serif; font-weight:300; line-height:18px;" size="1" color="#000000"></font>Walk tall in the Monica Loafer, crafted in exquisite Italian suede. A squared-off toe and small stacked heel will give you a little lift and take you exactly where you need to go.</p>
+                    <p>Monica Loafer</p></td>
+                  <td width="30" align="right" style="font-size: 0; line-height: 0; padding: 0 0px 0 0px;">&nbsp;</td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+       <tr>
+          <td align="center"><a href="https://www.hobbs.com/en/Yellow-Monica-Loafer-Flats-and-Pumps-Shoes-and-Boots/75wwa/?productID=0117-BR07-004H025&productvarid=0117-BR07-004H025-SAND-37" style="text-decoration:underline; color: #000000; font-weight:bold"><font style="font-size: 13px; color:#000000; -webkit-text-size-adjust:none;" face="Gotham, Helvetica, Arial, sans-serif" size="1" color="#000000"><strong>SHOP NOW</strong></font></a></td>
+        </tr> 
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        </table>
+      
+    </td>
+  </tr>
+</table>
+</td></tr>
+<tr><td>
+ <table class="tablewidth" dir="rtl"  width="700" cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; max-width: 700px;">
+  <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+  <tr><td bgcolor="#ffffff" colspan="3" class="iphone">&nbsp;</td></tr>
+  <tr>
+    <td width="340" dir="ltr" valign="top"class="full" style="text-align: center;">
+
+      <a href="https://www.hobbs.com/en/Green-Coralyn-Jacket-Smart-Jackets-Coats-and-Jackets/cef1s/?productID=0117-4533-9044L00&productvarid=0117-4533-9044L00-GREEN-12" style="text-decoration:none;"><img src="http://f.chtah.com/i/3/2088480426/170321_faithful_02.jpg" alt="The Coralyn Blazer" width="340" border="0" class="responsive-image" /></a>
+                      
+    </td>
+    <td width="340" class="full" dir="ltr">
+      
+     <table  border="0" cellpadding="0" cellspacing="0" align="center" width="340" class="tableWidth" bgcolor="#ffffff">
+
+        <tr>
+        <td width="340"  valign="top"class="full" style="text-align: center;">
+
+      <a href="https://www.hobbs.com/en/Green-Coralyn-Jacket-Smart-Jackets-Coats-and-Jackets/cef1s/?productID=0117-4533-9044L00&productvarid=0117-4533-9044L00-GREEN-12" style="text-decoration:none;"><img src="http://f.chtah.com/i/3/2088480426/170321_faithful_01.gif" alt="THE FAITHFUL JACKET" width="320" border="0" class="responsive-image" /></a>
+                      
+    </td>
+        </tr>
+            <tr>
+              <td bgcolor="#ffffff" colspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+              <td bgcolor="#ffffff" colspan="3"><table border="0" cellpadding="0" cellspacing="0" align="center" width="340" class="tableWidth" bgcolor="#ffffff" dir="ltr">
+                <tr>
+                  <td width="30" align="center" style="font-size: 0; padding: 0;">&nbsp;</td>
+                  <td class="padding" align="center" valign="middle" style="border: none; padding:5px 35px 7px 35px;"><font style="font-size: 13px; text-align: center; color:#000000; -webkit-text-size-adjust:none; font-family:Gotham, Helvetica, Arial, sans-serif; font-weight:300; line-height:18px;" size="1" color="#000000"></font>Giving you a boost of confidence when you need it most, the Coralyn jacket pulls you in and polishes you off. Neatly tailored it’s versatile and always appropriate.
+                    <p>Coralyn Jacket</p></td>
+                  <td width="30" align="right" style="font-size: 0; line-height: 0; padding: 0 0px 0 0px;">&nbsp;</td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+       <tr>
+          <td align="center"><a href="https://www.hobbs.com/en/Green-Coralyn-Jacket-Smart-Jackets-Coats-and-Jackets/cef1s/?productID=0117-4533-9044L00&productvarid=0117-4533-9044L00-GREEN-12" style="text-decoration:underline; color: #000000; font-weight:bold"><font style="font-size: 13px; color:#000000; -webkit-text-size-adjust:none;" face="Gotham, Helvetica, Arial, sans-serif" size="1" color="#000000"><strong>SHOP NOW</strong></font></a></td>
+        </tr> 
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        </table>
+      
+      
+      
+    </td>
+  </tr>
+</table>
+ </td></tr>
+ <tr><td>
+   <table border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#ffffff" style="text-align:center;">
+
+        <tr>
+          <td align="center">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="center">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="center"><a href="https://www.hobbs.com/The-Faithful/7fon/" style="text-decoration:underline; color: #000000; font-weight:bold"><font style="font-size: 13px; color:#000000; -webkit-text-size-adjust:none;" face="Gotham, Helvetica, Arial, sans-serif" size="1" color="#000000"><strong>SHOP FAITHFUL</strong></font></a></td>
+        </tr>
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+       
+        </table>
+  </td></tr>  
+    <tr><td>
+    <table class="tableWidth" width="700" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="padding: 5px 0;">
+           
+				<tr><td>&nbsp;</td></tr>
+		    </table>
+    </td></tr>
+    
+    <tr><td>
+    <table bgcolor="#ffffff" width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="tableWidth" style="border:0;"> 
+    
+    
+    
+          <tr>
+          <td>
+          <table width="344" border="0" align="left" cellpadding="0" cellspacing="0" class="tableWidth">
+            
+                <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" align="right">
+                    <tr>
+                      <td><a href="https://www.hobbs.com/en/Dresses/2isn/"><img src="http://f.chtah.com/i/3/2088480426/04_wk10_USA_25_Dresses_Desktop_22_01.jpg" alt="Dresses" width="335" border="0" class="responsive-image" /></a></td>
+                      </tr>
+                    <tr>
+                      <td><a href="https://www.hobbs.com/en/Tops/2j0g/"><img src="http://f.chtah.com/i/3/2088480426/04_wk10_USA_25_Dresses_Desktop_22_02.jpg" alt="Tops" width="335" border="0" class="responsive-image" /></a></td>
+                      </tr>
+                      <tr>
+                      <td><a href="https://www.hobbs.com/en/Skirts/2j9x/"><img src="http://f.chtah.com/i/3/2088480426/04_wk10_USA_25_Dresses_Desktop_22_03.jpg" alt="Skirts" width="335" border="0" class="responsive-image" /></a></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                
+            </table>
+            <table border="0" width="344" align="right" cellpadding="0" cellspacing="0" style=" border:0;" class="tableWidth">
+              <tr>
+                <td><table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td><a href="https://www.hobbs.com/en/SHOES-BOOTS/3hxc/"><img src="http://f.chtah.com/i/3/2088480426/04_wk10_USA_25_Dresses_Desktop_24_01.jpg" alt="Shoes" width="335" border="0" class="responsive-image" /></a></td>
+                    </tr>
+                  <tr>
+                    <td><a href="https://www.hobbs.com/en/Knitwear/2j1e/"><img src="http://f.chtah.com/i/3/2088480426/04_wk10_USA_25_Dresses_Desktop_24_02.jpg" alt="Knitwear" width="335" border="0" class="responsive-image" /></a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.hobbs.com/en/Pants/2j8z/"><img src="http://f.chtah.com/i/3/2088480426/04_wk10_USA_25_Dresses_Desktop_24_03.jpg" alt="Trousers" width="335" border="0" class="responsive-image" /></a></td>
+                    </tr>
+                  </table></td>
+                </tr>
+              </table></td>
+          </tr>
+  </table>
+    </td></tr>
+     
+  <tr>
+    <td>
+<table bgcolor="#FFFFFF" width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="tableWidth" style="border:0;"> 
+   
+  <tr><td><table  border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#FFFFFF">
+  
+        <tr>        
+        <td align="center" style="padding: 0px 0px 0 0px;"><img style="display: block" height="25" alt="" width="10" border="0" src="http://f.chtah.com/i/3/2088480426/space.gif"/></td>          
+  </tr>       
+        </table>
+</td></tr>   
+ <tr>
+	    <td><table class="tableWidth" width="700" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="border-top: 1px solid #d7d5d3; border-bottom: 1px solid #d7d5d3;">
+	      <tr style="padding: 7px 0 7px 0;">
+	        <td style=" padding-top:9px; padding-bottom:9px;" width="320" align="center" bgcolor="#ffffff"></td>
+	        <td style="padding: 7px 0 7px 0" width="40" align="center" bgcolor="#ffffff"><a href="http://www.facebook.com/HobbsVIP"> <img src="http://f.chtah.com/i/3/2088480426/150527_facebook_01.jpg" alt="Facebook" border="0" style="display:block;" width="12"  /> </a></td>
+	        <td width="40" align="center" bgcolor="#ffffff"><a href="http://www.twitter.com/HobbsVIP"> <img src="http://f.chtah.com/i/3/2088480426/150527_twitter_01.jpg" alt="Twitter" border="0" style="display:block;" width="22" /> </a></td>
+	        <td width="40" align="center" bgcolor="#ffffff"><a href="http://www.pinterest.com/HobbsVIP"> <img src="http://f.chtah.com/i/3/2088480426/150527_pinterest_01.jpg" alt="Pinterest" border="0"  style="display:block;" width="17" /> </a></td>
+	        <td width="40" align="center" bgcolor="#ffffff"><a href="https://plus.google.com/+hobbs"> <img src="http://f.chtah.com/i/3/2088480426/150527_google_01.jpg" alt="Google Plus" border="0" style="display:block;" width="21" /> </a></td>
+	        <td width="40" align="center" bgcolor="#ffffff"><a href="https://instagram.com/hobbsvip"> <img src="http://f.chtah.com/i/3/2088480426/instagram_new_footer.jpg" alt="Instagram" border="0" style="display:block;" width="25" /> </a></td>
+	        <td width="320" align="center" bgcolor="#ffffff"></td>
+          </tr>
+        </table></td>
+</tr>
+ <tr>
+	    <td>
+		    <table class="tableWidth" width="700" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="padding: 5px 0;">
+           
+				<tr>
+					<td colspan="6">&nbsp;</td>
+				</tr>
+		    </table>
+	    </td>
+</tr>
+  <tr> 
+    
+    <td><table class="tableWidth" border="0" cellpadding="0" cellspacing="0" align="center" width="700" >
+      
+      <tr>
+        <td style="padding: 0px 0px 0px 0px;"><div style="font-size: 12px; text-align:center">
+        <p><font color="#3a2b20" size="1" face="Arial, Helvetica, sans-serif, Century Gothic" style="font-size: 10px"><strong>Terms & Conditions: Free London Scarf worth £95</strong><br />
+1. Receive a Free London Scarf worth $95 when you spend $250 or more in Hobbs Westchester, NY or Hobbs Greenwich, CT. 
+2. The offer is valid while stocks last.
+3. This is a temporary promotion only. 
+4. This promotion is only valid in the following USA stores: Hobbs Westchester, NY and Hobbs Greenwich, CT. It cannot be redeemed in Bloomingdale concessions or online.
+5. In the event of a refund, the scarf must also be returned in the condition it was sold in.
+6. This discount is exclusive to you and is non-transferable.
+7. This offer excludes Gift card purchases and postage and packaging for online purchases.
+8. There is no cash alternative; one scarf per customer and it is valid for one transaction only.
+9. Hobbs Ltd reserves the right to amend these terms and conditions or withdraw the promotion as necessary due to circumstances beyond its control.
+10. These terms and conditions strictly apply.
+</font></p><font style="font-size: 10px" face="Arial, Helvetica, sans-serif, Century Gothic" color="#3a2b20" size="1">
+        <p><font color="#3a2b20" size="1" face="Arial, Helvetica, sans-serif, Century Gothic" style="font-size: 10px">To stop receiving marketing emails from Hobbs please click <a href="http://surv.cheetahmail.com/s?t=%%t%%&EMAIL=%%EMAIL%%&n=1" style="color:#3a2b20;">unsubscribe</a><br />
+        </font></p>
+</font>
+            <p><font color="#3a2b20" size="1" face="Arial, Helvetica, sans-serif, Century Gothic" style="font-size: 10px"> Hobbs Ltd, 72 Welbeck Street, London, W1G 0AY<br />
+              Registered in England, Registered Number: 1577740<br />
+              Registered Office: Milton Gate, 60 Chiswell Street, London, EC1Y 4AG</font></p>
+        </div>
+          
+          <div style="font-size: 10px; text-align:center"><font style="font-size: 10px" face="Arial, Helvetica, sans-serif, Century Gothic" color="#3a2b20" size="1"><a style="color: #3a2b20; text-decoration: none" href="http://www.hobbs.co.uk/information/privacy">Privacy policy</a></font></div>
+          <div style="font-size: 10px; text-align:center"><font style="font-size: 10px" face="Arial, Helvetica, sans-serif, Century Gothic" color="#3a2b20" size="1"><a style="color: #000000; text-decoration: none" href="http://www.hobbs.co.uk/information/privacy">&copy; Hobbs 2017</a></font></div></td>
+        </tr>
+      
+      </table></td>
+  </tr>
+  </table>
+</td></tr>
+</table>
+</body>
+</html>

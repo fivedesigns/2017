@@ -1,0 +1,789 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Hobbs London</title>
+<style type="text/css">
+
+@media only screen and (max-width: 480px)  {
+	*[class=logo] {
+		width:210px !important;
+	}
+	
+	.splitter {
+		display: inline-block !important;
+		text-align:center !important;
+		color:#000 !important;
+		font-size: 12px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		width:5px !important;
+		font-size:13px !important;
+		font-family: arial, sans-serif !important;
+	}
+	
+	.iPhonefooter1 {
+		display: inline-block !important;
+		text-align:center !important;
+		color:#000 !important;
+		padding-bottom:0;
+		font-size: 12px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		width:100px !important;
+		font-size:13px !important;
+		font-family: arial, sans-serif !important;
+		text-decoration:none !important;
+	}
+	
+	.tablewidth {
+		width: 320px !important;
+	}
+	
+	.full {
+		display:block;
+		width:100%;
+	}
+	
+	.hide {
+		display:none !important;
+	}
+}
+
+/* Prettifying code */
+
+body { background-color: #FFF; }
+
+a {
+	color:inherit;
+}
+
+body {
+	margin: 10px;
+	padding: 0px;
+	background: #FFF;
+	font-size: 13px;
+}
+
+table {
+	border-collapse:collapse;
+	mso-table-lspace:0pt;
+	mso-table-rspace:0pt;
+	border-spacing: 0;
+}
+
+td {
+	font-family: arial, sans-serif;
+	color: #333333;
+}
+
+tr {
+	border-collapse:collapse;
+}
+
+.iPhonefooter {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.iPhonefooter1 {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.iPhonefooter2 {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.iPhonefooter3 {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.footerSplitter {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.imageappear {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.imageappear2 {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.hide {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	width:0;
+	mso-hide: all;
+}
+
+.iPhonebutton {
+	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+	mso-hide: all;
+}
+
+.iPhone100 {
+	width: 100px !important;
+}
+
+@media only screen and (max-width: 480px) {
+	body, table, td, p, a, li, blockquote {
+		-webkit-text-size-adjust:none !important;
+	}
+	
+	*[class=iPhone] {
+		display:none !important;
+	}
+	
+	*[class=iPhone100] {
+		display:none !important;
+	}
+
+	table[class=tableWidth] {
+		width: 320px !important;
+	}
+	
+	*[class=responsive-image] img {
+		height: auto !important;
+		width: 320px !important;
+	}
+	
+	*[class=responsive-image] {
+		height: auto !important;
+		width: 320px !important;
+	}
+	
+	*[class=responsive-image2] img {
+		height: auto !important;
+		width: 160px !important;
+	}
+	
+	*[class=responsive-image2] {
+		height: auto !important;
+		width: 160px !important;
+	}
+
+	*[class=thumbnail-image] {
+		width:150px !important;
+	}
+	
+	*[class=numbersemail] {
+		width:150px !important;
+	}
+
+	*[class=singleproduct] {
+		width:160px !important;
+	}
+	
+	*[class=smallproduct] {
+		width:158px !important;
+	}
+	
+	*[class=iphone] {
+		display:none !important;
+	}
+	
+	img[class=iphone-header] {
+		-ms-interpolation-mode: bicubic;
+		display: block !important;
+		visibility: visible !important;
+		width: 125px !important;
+		height: 44px !important;
+	}
+	
+	*[class=show] {
+		display: block !important;
+	}
+
+	*[class=footer-line] {
+		width: 65px !important;
+		height: 11px !important;
+		margin-left:8px;
+	}
+	
+	*[class=footer-line1] {
+		width: 65px !important;
+		height: 11px !important;
+		margin-right:8px;
+	}
+	
+	* [class=iPhonefooter] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		padding-bottom:10px;
+		font-size: 13px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:104px;
+	}
+	
+	* [class=height] {
+		height:18px;
+	}
+	
+	*[class=footerSplitter] {
+		width: 3px !important;
+		display: inline-block !important;
+		text-align: center;
+		font-size: 15px !important;
+		max-height: none !important;
+		line-height: 1.0 !important;
+		margin-top: -15px;
+		color: #000000;
+	}
+	
+	*[class=longimage] {
+		width:200px !important;
+		text-align:center !important;
+	}
+	
+	*[class=image] {
+		width:320px !important;
+		padding:7px !important;
+	}
+	
+	*[class=image2] {
+		width:300px !important;
+	}
+	
+	*[class=tableborder] {
+		border:none !important;
+	}
+	
+	* [class=iPhonefooter1] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		padding-bottom:10px;
+		font-size: 12px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:114px;
+	}
+	
+	* [class=iPhonefooter2] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		padding-bottom:10px;
+		font-size: 12px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:97px;
+	}
+	
+	*[class=iPhonefooter3] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		padding-bottom:10px;
+		font-size: 12px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:78px;
+	}
+	
+	*[class=slicewords] {
+		width:320px !important
+	}
+	
+	*[class=slicedword320] {
+		width:320px !important
+	}
+	
+	*[class=slicedword160] {
+		width:150px !important
+	}
+	
+	*[class=imageappear] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		padding-bottom:5px;
+		font-size: 13px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:320px;
+	}
+	
+	.footerSplitter1 {
+		display: none;
+		font-size: 0;
+		max-height: 0;
+		line-height: 0;
+	}
+	
+	*[class=hide] {
+		display: block !important;
+		text-align:center;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:320px !important;
+	}
+	
+	*[class=imageappear2] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		padding-bottom:5px;
+		font-size: 38px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:320px;
+	}
+	
+	* [class=iPhonebutton] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		font-size: 15px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		width:318px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		width:320px !important;
+	}
+
+	* [class=iPhonebutton2] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		font-size: 15px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		width:130px !important;
+	}
+	
+	*[class=iphone-footer-img] {
+		width:auto !important;
+	}
+	
+	*[class=shopby] {
+		width:230px !important;
+	}
+	
+	*[class=featurebox1] {
+		width:100px !important;
+		padding:7px !important;
+	}
+	
+	*[class=featurebox2] {
+		width:100px !important;
+		padding:7px !important;
+	}
+	
+	*[class=social] {
+		width:auto !important;
+	}
+	
+	*[class=fontsize] {
+		font-size:20px !important;
+	}
+	
+	*[class=paddingiphone] {
+		padding-top:10px !important;
+		padding-bottom:10px !important;
+	}
+	
+	*[class=iphonepadding] {
+		padding:10px !important;
+		font-size: 15px !important;
+	}
+	
+	*[class=width130] {
+		width:130px;
+	}
+
+	*[class=width130] {
+		width:150px !important;
+	}
+	
+	*[class=shopsale] {
+		width:350px !important;
+	}
+	
+	*[class=social] {
+		padding: 7px 15px 7px 0;
+	}
+	
+	*[class=responsive-image7] {
+		height: auto !important;
+		width: 50px !important;
+	}
+	
+	*[class=paddingsocial] {
+		padding: 7px 15px 7px 0 !important;
+	}
+	
+	*[class=paddingsocial2] {
+		padding: 7px 13px 7px 0 !important;
+	}
+	
+	*[class=logo] {
+		width:210px !important;
+	}
+	*[class=responsive-image5] {
+		height: auto !important;
+		width: 320px !important;
+		padding-top:15px;
+	}
+	
+	*[class=responsive-image4] {
+		height: auto !important;
+		width: 64px !important;
+	}
+	
+	*[class=expand] {
+		width:190px !important;
+		padding-top:5px !important;
+		padding-bottom:5px !important;
+		padding-right:5px !important;
+		padding-left: 5px !important;
+	}
+	
+	*[class=iphonepady] {
+		padding-top:5px !important;
+		padding-bottom:10px !important;
+	}
+	
+	* [class=newincta] {
+		width:255px !important;
+	}
+	
+	* [class=wearit] {
+		width: 320px !important;
+	}
+
+	* [class=dressbutton] {
+		display: inline-block !important;
+		text-align:center;
+		color:#FFFFFF;
+		font-size: 15px !important;
+		max-height: none !important;
+		line-height: 1.5 !important;
+		font:Arial, Helvetica, sans-serif !important;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	
+	* [class=colorchange] {
+		background-color: #fff;
+	}
+	
+	* [class=promo] {
+		padding: 0 30px 15px 30px !important;
+	}
+	
+	* [class=tscs] {
+		padding: 0 0 10px 0 !important;
+	}
+}
+.footerSplitter1 {	display: none;
+	font-size: 0;
+	max-height: 0;
+	line-height: 0;
+}
+</style>
+</head>
+<body>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="tableWidth">
+  <tr>
+    <td><table  border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth">
+        <tr>
+          <td colspan="10" style="padding: 0px 0px 0px 0px;"><div style="font-size: 12px; text-align:center">%%FRIEND_MESSAGE%%</div>
+            <div style="font-size: 10px; text-align:center"> Plus have you visted our Greenwich Avenue, CT store? | %%IGNORE%% <font style="font-size: 10px; text-align: center" face="Arial, Helvetica, sans-serif" color="#3a2b20" size="1"><a href="http://ebm.e.hobbs.co.uk/c/tag/%%t%%/doc.html?t_params=%%t_params%%" style="color: #3a2b20; text-decoration: underline;" >View email online</a> %%IGNORE%%</font> </div></td>
+        </tr>
+      </table></td>
+  </tr>
+ <tr>
+    	<td>
+	    	<table class="tableWidth"  bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" align="center" width="700">
+		        <tr>
+		          	<td colspan="7" align="center" bgcolor="#FFFFFF" style="padding: 5px 0;">
+			          	<a style="text-decoration:none;" href="http://www.hobbs.com/"><img src="http://f.chtah.com/i/3/2088480426/150527_hobbs-logo.jpg" alt="Hobbs London" width="250" border="0" style="display: inline-block;" class="logo" /></a><a href="http://www.hobbs.co.uk/home"></a>
+		          	</td>
+		        </tr>
+	      	</table>
+     	</td>
+  </tr>
+    <tr>
+    <td><table class="tableWidth" width="700" border="0" align="center" cellpadding="0" cellspacing="0"  bgcolor="#FFFFFF"  style="border-top: 1px solid #d7d5d3; border-bottom: 1px solid #d7d5d3;">
+      <tr bgcolor="#FFFFFF">
+        <td width="104" align="center" bgcolor="#FFFFFF" style="padding: 5px 0 5px 0;"><a href="http://www.hobbs.com/en/New-Arrivals/3i70/" style="text-decoration:none;"> <span style="padding: 10px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: center; color:#000000; text-transform:uppercase;"><strong>NEW IN</strong></span></a></td>
+        <td width="110" align="center" bgcolor="#FFFFFF" style="padding: 0;"><a href="https://www.hobbs.com/en/Clothing/2698p/" style="text-decoration:none;"> <span style="padding: 10px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: center; color:#000000; text-transform:uppercase;"><strong>CLOTHING</strong></span></a></td>
+        <td width="88" align="center" bgcolor="#FFFFFF" class="iphone" style="padding: 0;"><a href="http://www.hobbs.com/en/Shoes/3hxc/" style="text-decoration:none"> <span style="padding: 10px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: center; color:#000000; text-transform:uppercase;"><strong>SHOES</strong></span></a></td>
+        <td width="137" align="center" bgcolor="#FFFFFF" class="iphone" style="padding: 0;"><a href="http://www.hobbs.com/en/ACCESSORIES/3gwf/" style="text-decoration:none"> <span style="padding: 10px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: center; color:#000000; text-transform:uppercase;"><strong>ACCESSORIES</strong></span></a></td>
+        <td width="98" align="center" bgcolor="#FFFFFF" style="padding: 0;"><a href="https://www.hobbs.com/en/OUTLET/3ici/" style="text-decoration:none"><font style="font-size: 12px; text-align: center; color:#000000; -ms-text-size-adjust:none; -moz-text-size-adjust:none; -webkit-text-size-adjust:none;" face="Arial, Helvetica, sans-serif" size="1"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OUTLET&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></font></a></td>
+      </tr>
+    </table></td>
+  </tr>
+ 
+ <tr>
+    <td>
+    <table  border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#FFFFFF">
+
+        <tr>
+        
+        <td align="center" style="padding: 0px 0px 0 0px;"><img style="display: block" height="25" alt="" width="10" border="0" src="http://f.chtah.com/i/3/2088480426/space.gif"/></td>
+  </tr>
+       
+        </table>
+    </td>
+  </tr>
+
+<tr><td>
+<table  border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#ffffff">
+        <tr>
+        <td align="center"><a href="http://www.hobbs.com/en/New-Arrivals/3i70/"><img src="http://f.chtah.com/i/3/2088480426/170408_25_ends_01.gif" alt="Don't Miss Out!" width="286" border="0" class="responsive-image" /></a></td>
+        </tr>    
+      </table>
+</td></tr>
+<tr><td>
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#ffffff" style="text-align:center;">
+        <tr><td colspan="3">&nbsp;</td></tr>
+        <tr>
+          <td class="iphone" width="75" align="center" style="font-size: 0; padding: 0;" >&nbsp;</td>
+                <td class="padding" align="center" valign="middle"  style="border: none; font-family:Gotham, Helvetica, Arial, sans-serif; font-weight:300; line-height:18px; padding:0px 5px;">To celebrate the launch of our brand new Greenwich Avenue, CT store, we are offering you <strong>25% off</strong> at our Greenwich Avenue, CT and Westchester, NY stores, as well as online, but you need to be quick as this offer ends tomorrow!</td>
+                <td class="iphone" width="75" align="right" style="font-size: 0; line-height: 0; padding: 0 0px 0 0px;">&nbsp;</td>
+        </tr>
+        
+      </table>
+</td></tr>
+<tr><td>
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#ffffff" style="text-align:center;">
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        <tr>
+          <td align="center"><a href="http://www.hobbs.com/en/New-Arrivals/3i70/" style="text-decoration:underline; color: #000000; font-weight:bold"><font style="font-size: 13px; color:#000000; -webkit-text-size-adjust:none;" face="Gotham, Helvetica, Arial, sans-serif" size="1" color="#000000"><strong>SHOP NOW</strong></font></a></td>
+        </tr>
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+      </table>
+</td></tr>
+<tr><td>
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#ffffff" style="text-align:center;">
+        <tr><td bgcolor="#ffffff" colspan="3">&nbsp;</td></tr>
+        </table>
+</td></tr>
+
+<tr><td>
+<table  border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#ffffff">
+        <tr>
+          <td width="500" align="center" style="font-size: 0; line-height: 0; padding: 0;"><a href="http://www.hobbs.com/en/New-Arrivals/3i70/"><img src="http://f.chtah.com/i/3/2088480426/170408_25_ends_03.jpg" alt="ONLINE & IN STORE | 25% OFF* | USE CODE: US25 | SHOP NOW" width="700" border="0" class="responsive-image" /></a></td>
+        </tr>
+        </table>
+</td></tr>
+<tr>
+  <td>
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#ffffff" style="text-align:center;">
+<tr><td bgcolor="#ffffff" colspan="3"><span style="padding: 0px 0px 0 0px;"><img style="display: block" height="20" alt="" width="10" border="0" src="http://f.chtah.com/i/3/2088480426/space.gif"/></span></td></tr>
+        </table>
+</td></tr>
+  <tr>
+    <td>
+    <table border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#fafafa" style="text-align:center;">       
+        <tr><td bgcolor="#fafafa" colspan="3"><table bgcolor="#fafafa" width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="tableWidth" style="border:0;">
+          <tr>
+            <td><table bgcolor="#fafafa" width="340" border="0" align="left" cellpadding="0" cellspacing="0" class="tableWidth">
+              
+              <tr>
+                <td><table border="0" width="340" align="left" cellpadding="0" cellspacing="0" style=" border:0;" class="tableWidth">
+                  <tr>
+                    
+                    <tr>
+                      <td bgcolor="#fafafa" style="border:0;"><a href="https://www.hobbs.com/en/Hobbs-Stores/g3afn/?element=55777"><img src="http://f.chtah.com/i/3/2088480426/170408_25_ends_02.jpg" alt="Hobbs" width="340" border="0" class="responsive-image" /></a></td>
+                      </tr>
+                  </table></td>
+                </tr>
+              </table>
+              
+              <table border="0" width="340" align="right" cellpadding="0" cellspacing="0" style=" border:0;" class="tableWidth">
+                
+                <tr>
+                  <td bgcolor="#fafafa" style="border:0;"><table border="0" width="340" align="left" cellpadding="0" cellspacing="0" style=" border:0;" class="tableWidth">
+                    <tr>
+                      <td bgcolor="#fafafa" align="center" width="195" style="border:0;"><a href="https://www.hobbs.com/en/Hobbs-Stores/g3afn/?element=55777"><img src="http://f.chtah.com/i/3/2088480426/170408_25_ends_02.gif" alt="We've Arrived!" width="345" class="responsive-image" border="0" /></a></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="195" align="center" bgcolor="#fafafa" style="font-size: 13px; color:000000;  -webkit-text-size-adjust:none; padding: 0 45px;"><p>We have just opened our doors to our newest store, on Greenwich Avenue, CT. Stop by for a taste of our timeless British Style - we'd love to see you!</p></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td align="center"><a href="https://www.hobbs.com/en/Hobbs-Stores/g3afn/?element=55777" style="text-decoration:underline; color: #000000; font-weight:bold"><font style="font-size: 13px; color:#000000; -webkit-text-size-adjust:none;" face="Gotham, Helvetica, Arial, sans-serif" size="1" color="#000000"><strong>FIND OUR STORE</strong></font></a></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </table></td>
+                  </tr>
+                </table></td>
+            </tr>
+        </table></td></tr>
+       </table>
+    </td></tr> 
+    
+    <tr><td>
+    <table class="tableWidth" width="700" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="padding: 5px 0;">
+           
+				<tr><td>&nbsp;</td></tr>
+		    </table>
+    </td></tr>
+    
+    <tr><td>
+    <table bgcolor="#ffffff" width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="tableWidth" style="border:0;"> 
+    
+    
+    
+          <tr>
+          <td>
+          <table width="344" border="0" align="left" cellpadding="0" cellspacing="0" class="tableWidth">
+            
+                <tr>
+                  <td>
+                  <table border="0" cellpadding="0" cellspacing="0" align="right">
+                    <tr>
+                      <td><a href="https://www.hobbs.com/en/Dresses/2isn/"><img src="http://f.chtah.com/i/3/2088480426/04_wk10_USA_25_Dresses_Desktop_22_01.jpg" alt="Dresses" width="335" border="0" class="responsive-image" /></a></td>
+                      </tr>
+                    <tr>
+                      <td><a href="https://www.hobbs.com/en/Tops/2j0g/"><img src="http://f.chtah.com/i/3/2088480426/04_wk10_USA_25_Dresses_Desktop_22_02.jpg" alt="Tops" width="335" border="0" class="responsive-image" /></a></td>
+                      </tr>
+                      <tr>
+                      <td><a href="https://www.hobbs.com/en/Skirts/2j9x/"><img src="http://f.chtah.com/i/3/2088480426/04_wk10_USA_25_Dresses_Desktop_22_03.jpg" alt="Skirts" width="335" border="0" class="responsive-image" /></a></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                
+            </table>
+            <table border="0" width="344" align="right" cellpadding="0" cellspacing="0" style=" border:0;" class="tableWidth">
+              <tr>
+                <td><table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td><a href="https://www.hobbs.com/en/SHOES-BOOTS/3hxc/"><img src="http://f.chtah.com/i/3/2088480426/04_wk10_USA_25_Dresses_Desktop_24_01.jpg" alt="Shoes" width="335" border="0" class="responsive-image" /></a></td>
+                    </tr>
+                  <tr>
+                    <td><a href="https://www.hobbs.com/en/Knitwear/2j1e/"><img src="http://f.chtah.com/i/3/2088480426/04_wk10_USA_25_Dresses_Desktop_24_02.jpg" alt="Knitwear" width="335" border="0" class="responsive-image" /></a></td>
+                    </tr>
+                    <tr>
+                    <td><a href="https://www.hobbs.com/en/Pants/2j8z/"><img src="http://f.chtah.com/i/3/2088480426/04_wk10_USA_25_Dresses_Desktop_24_03.jpg" alt="Trousers" width="335" border="0" class="responsive-image" /></a></td>
+                    </tr>
+                  </table></td>
+                </tr>
+              </table></td>
+          </tr>
+  </table>
+    </td></tr>
+     
+  <tr>
+    <td>
+<table bgcolor="#FFFFFF" width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="tableWidth" style="border:0;"> 
+   
+  <tr><td><table  border="0" cellpadding="0" cellspacing="0" align="center" width="700" class="tableWidth" bgcolor="#FFFFFF">
+  
+        <tr>        
+        <td align="center" style="padding: 0px 0px 0 0px;"><img style="display: block" height="25" alt="" width="10" border="0" src="http://f.chtah.com/i/3/2088480426/space.gif"/></td>          
+  </tr>       
+        </table>
+</td></tr>   
+ <tr>
+	    <td><table class="tableWidth" width="700" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="border-top: 1px solid #d7d5d3; border-bottom: 1px solid #d7d5d3;">
+	      <tr style="padding: 7px 0 7px 0;">
+	        <td style=" padding-top:9px; padding-bottom:9px;" width="320" align="center" bgcolor="#ffffff"></td>
+	        <td style="padding: 7px 0 7px 0" width="40" align="center" bgcolor="#ffffff"><a href="http://www.facebook.com/HobbsVIP"> <img src="http://f.chtah.com/i/3/2088480426/150527_facebook_01.jpg" alt="Facebook" border="0" style="display:block;" width="12"  /> </a></td>
+	        <td width="40" align="center" bgcolor="#ffffff"><a href="http://www.twitter.com/HobbsVIP"> <img src="http://f.chtah.com/i/3/2088480426/150527_twitter_01.jpg" alt="Twitter" border="0" style="display:block;" width="22" /> </a></td>
+	        <td width="40" align="center" bgcolor="#ffffff"><a href="http://www.pinterest.com/HobbsVIP"> <img src="http://f.chtah.com/i/3/2088480426/150527_pinterest_01.jpg" alt="Pinterest" border="0"  style="display:block;" width="17" /> </a></td>
+	        <td width="40" align="center" bgcolor="#ffffff"><a href="https://plus.google.com/+hobbs"> <img src="http://f.chtah.com/i/3/2088480426/150527_google_01.jpg" alt="Google Plus" border="0" style="display:block;" width="21" /> </a></td>
+	        <td width="40" align="center" bgcolor="#ffffff"><a href="https://instagram.com/hobbsvip"> <img src="http://f.chtah.com/i/3/2088480426/instagram_new_footer.jpg" alt="Instagram" border="0" style="display:block;" width="25" /> </a></td>
+	        <td width="320" align="center" bgcolor="#ffffff"></td>
+          </tr>
+        </table></td>
+</tr>
+ <tr>
+	    <td>
+		    <table class="tableWidth" width="700" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="padding: 5px 0;">
+           
+				<tr>
+					<td colspan="6">&nbsp;</td>
+				</tr>
+		    </table>
+	    </td>
+</tr>
+  <tr> 
+    
+    <td><table class="tableWidth" border="0" cellpadding="0" cellspacing="0" align="center" width="700" >
+      
+      <tr>
+        <td style="padding: 0px 0px 0px 0px;"><div style="font-size: 12px; text-align:center">
+        <p><font color="#3a2b20" size="1" face="Arial, Helvetica, sans-serif, Century Gothic" style="font-size: 10px"><strong>Terms & Conditions</strong><br />
+*Available in US only. 25% promotion applies online at www.hobbs.com, or in the Greenwich and Westchester stores. Promotion cannot be used in any Hobbs Bloomingdale&rsquo;s concession. Valid on full-priced items only. Valid from 03/27/2017 to 04/09/2017 subject to stock availability. To redeem this offer, enter code US25 at checkout. To redeem instore print off this email or show instore on your mobile. Offer excludes gift cards and delivery charges. Offer cannot be combined with any other discount or multiple offer.
+        </font></p><font style="font-size: 10px" face="Arial, Helvetica, sans-serif, Century Gothic" color="#3a2b20" size="1">
+        <p><font color="#3a2b20" size="1" face="Arial, Helvetica, sans-serif, Century Gothic" style="font-size: 10px">To stop receiving marketing emails from Hobbs please click <a href="http://surv.cheetahmail.com/s?t=%%t%%&EMAIL=%%EMAIL%%&n=1" style="color:#3a2b20;">unsubscribe</a><br />
+        </font></p>
+</font>
+            <p><font color="#3a2b20" size="1" face="Arial, Helvetica, sans-serif, Century Gothic" style="font-size: 10px"> Hobbs Ltd, 72 Welbeck Street, London, W1G 0AY<br />
+              Registered in England, Registered Number: 1577740<br />
+              Registered Office: Milton Gate, 60 Chiswell Street, London, EC1Y 4AG</font></p>
+        </div>
+          
+          <div style="font-size: 10px; text-align:center"><font style="font-size: 10px" face="Arial, Helvetica, sans-serif, Century Gothic" color="#3a2b20" size="1"><a style="color: #3a2b20; text-decoration: none" href="http://www.hobbs.co.uk/information/privacy">Privacy policy</a></font></div>
+          <div style="font-size: 10px; text-align:center"><font style="font-size: 10px" face="Arial, Helvetica, sans-serif, Century Gothic" color="#3a2b20" size="1"><a style="color: #000000; text-decoration: none" href="http://www.hobbs.co.uk/information/privacy">&copy; Hobbs 2017</a></font></div></td>
+        </tr>
+      
+      </table></td>
+  </tr>
+  </table>
+</td></tr>
+</table>
+</body>
+</html>
